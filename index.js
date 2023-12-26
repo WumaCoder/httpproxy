@@ -17,7 +17,7 @@ fastify.post('/fetch', async (request, reply) => {
 // Run the server!
 const start = async () => {
   try {
-    await fastify.listen(3000, '0.0.0.0')
+    await fastify.listen(3030, '0.0.0.0')
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)

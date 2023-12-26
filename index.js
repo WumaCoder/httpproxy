@@ -1,6 +1,5 @@
-async / await
 // Require the framework and instantiate it
-const fastify = require('fastify')({ logger: false })
+var fastify = require('fastify')({ logger: false })
 
 // Declare a route
 fastify.post('/fetch', async (request, reply) => {

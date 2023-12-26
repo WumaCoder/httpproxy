@@ -1,5 +1,6 @@
 // Require the framework and instantiate it
 var fastify = require('fastify')({ logger: false })
+var axios = require('axios');
 
 // Declare a route
 fastify.post('/fetch', async (request, reply) => {
